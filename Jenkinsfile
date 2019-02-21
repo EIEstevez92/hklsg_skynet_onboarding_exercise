@@ -8,7 +8,7 @@ pipeline {
             steps {
                 script{
                     globalBootstrap {
-                        libraryName   = "datio-workflowlibs"
+                        libraryName   = "datio-workflowlibs-es"
                         libraryBranch = "feature/skynet"
                         entrypointParams = [
                             nodeLabel         : "spark",
